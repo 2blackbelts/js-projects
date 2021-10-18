@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(238, 238, 120);
+}
+
+#wrapper {
+    background-color: #fff;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+#email-container {
+    background-color: palegreen;
+    height: 100px;
+}
+
+#email {
+    padding: 10px;
+}
