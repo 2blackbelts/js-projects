@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frog Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <main>
+            <h1 id="title">Frog Form</h1>
+            <p id="subtitle">Using jQuery + jQuery Validate plugin on a contact form.
+            </p>
+
+            <h2>Sign up to our Mailing List</h2>
+            <form id="frog" action="" method="get">
+
+                <label for="firstname">First Name<span>*</span></label>
+                <input id="firstname" type="text" placeholder="Your first name" minlength="3" required>
+
+                <label for="lastname">Last Name</label>
+                <input id="lastname" type="text" placeholder="Your last name">
+
+                <label for="email">Email Address<span>*</span></label>
+                <input id="email" type="email" placeholder="Your email address" required>
+
+                <input type="checkbox" name="agree" id="agree" required>
+                <label for="agree">Terms & Conditions<span>*</span></label>
+
+                <input type="submit" value="Sign Up" id="signup" disabled="true">
+            </form>
+            
+        </main>
+    </div>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
