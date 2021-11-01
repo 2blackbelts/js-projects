@@ -1,0 +1,22 @@
+body {
+    background-color: #fff;
+}
+
+#wrapper {
+    background-color: #fff;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+#subtitle {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+}
+
+
